@@ -4,7 +4,7 @@
   <title><![CDATA[Category: blogging | Hungry Coder's Blog]]></title>
   <link href="http://hungrycoder.github.com/blog/categories/blogging/atom.xml" rel="self"/>
   <link href="http://hungrycoder.github.com/"/>
-  <updated>2012-02-13T03:16:33-08:00</updated>
+  <updated>2012-02-13T03:17:36-08:00</updated>
   <id>http://hungrycoder.github.com/</id>
   <author>
     <name><![CDATA[Hungry Coder]]></name>
@@ -42,8 +42,6 @@
 <h1>. Lots of dependencies (almost 30 by my count).</h1>
 
 <h1>. It took about 5 minutes to bootstrap to Ruby 1.9.2.</h1>
-
-<h1>. Rake for everything.  Can't I just add a post file?</h1>
 
 <h1>. :raw-html:<code>&lt;del&gt;Posts in markdown&lt;/del&gt;</code></h1>
 
