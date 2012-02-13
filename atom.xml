@@ -4,7 +4,7 @@
   <title><![CDATA[Hungry Coder's Blog]]></title>
   <link href="http://hungrycoder.github.com/atom.xml" rel="self"/>
   <link href="http://hungrycoder.github.com/"/>
-  <updated>2012-02-12T23:21:07-08:00</updated>
+  <updated>2012-02-13T03:04:09-08:00</updated>
   <id>http://hungrycoder.github.com/</id>
   <author>
     <name><![CDATA[Hungry Coder]]></name>
@@ -12,5 +12,35 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[hello world]]></title>
+    <link href="http://hungrycoder.github.com/blog/2012/02/12/hello-world/"/>
+    <updated>2012-02-12T01:02:00-08:00</updated>
+    <id>http://hungrycoder.github.com/blog/2012/02/12/hello-world</id>
+    <content type="html"><![CDATA[<p>I am trying out blogging with <a class="reference external" href="http://octopress.org/">OctoPress</a>.  Here are my initial thoughts.</p>
+<p>Some things I like:</p>
+<ol class="arabic simple">
+<li>It&#8217;s all static! &#8211; Can&#8217;t really beat this.  Edit posts in your favorite text edit and publish when you are ready.</li>
+<li>Sass for CSS</li>
+<li>Decent docs</li>
+<li>Integrated version control</li>
+<li>Simple deploying</li>
+</ol>
+<p>Some things I don&#8217;t like:</p>
+<ol class="arabic simple">
+<li>Lots of dependencies (almost 30 by my count).</li>
+<li>It took about 5 minutes to bootstrap to Ruby 1.9.2.</li>
+<li>Rake for everything.  Can&#8217;t I just add a post file?</li>
+<li><span class="raw-html"><del>Posts in markdown</del></span></li>
+</ol>
+<p>Here&#8217;s a Jekyll plugin for <a class="reference external" href="http://docutils.sourceforge.net/rst.html">Restructured Text</a> instead of Markdown.  To install the jekyll-rst plugin use:</p>
+<pre class="literal-block">
+$ pip install pygments
+$ pip install docutils
+$ cd &lt;octopress-project-path&gt;
+$ git submodule add https://github.com/xdissent/jekyll-rst.git plugins/jekyll-rst
+</pre>]]></content>
+  </entry>
   
 </feed>

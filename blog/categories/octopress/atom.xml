@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: octopress | Hungry Coder's Blog]]></title>
+  <link href="http://hungrycoder.github.com/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://hungrycoder.github.com/"/>
+  <updated>2012-02-13T03:04:09-08:00</updated>
+  <id>http://hungrycoder.github.com/</id>
+  <author>
+    <name><![CDATA[Hungry Coder]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[hello world]]></title>
+    <link href="http://hungrycoder.github.com/blog/2012/02/12/hello-world/"/>
+    <updated>2012-02-12T01:02:00-08:00</updated>
+    <id>http://hungrycoder.github.com/blog/2012/02/12/hello-world</id>
+    <content type="html"><![CDATA[<p>.. role:: raw-html(raw)</p>
+
+<pre><code>:format: html
+</code></pre>
+
+<p>I am trying out blogging with OctoPress_.  Here are my initial thoughts.</p>
+
+<p>Some things I like:</p>
+
+<h1>. It's all static! -- Can't really beat this.  Edit posts in your favorite text edit and publish when you are ready.</h1>
+
+<h1>. Sass for CSS</h1>
+
+<h1>. Decent docs</h1>
+
+<h1>. Integrated version control</h1>
+
+<h1>. Simple deploying</h1>
+
+<p>Some things I don't like:</p>
+
+<h1>. Lots of dependencies (almost 30 by my count).</h1>
+
+<h1>. It took about 5 minutes to bootstrap to Ruby 1.9.2.</h1>
+
+<h1>. Rake for everything.  Can't I just add a post file?</h1>
+
+<h1>. :raw-html:<code>&lt;del&gt;Posts in markdown&lt;/del&gt;</code></h1>
+
+<p>Here's a Jekyll plugin for <code>Restructured Text</code>_ instead of Markdown.  To install the jekyll-rst plugin use:
+::</p>
+
+<pre><code>$ pip install pygments
+$ pip install docutils
+$ cd &lt;octopress-project-path&gt;
+$ git submodule add https://github.com/xdissent/jekyll-rst.git plugins/jekyll-rst
+</code></pre>
+
+<p>.. <em>OctoPress: http://octopress.org/
+.. </em>Restructured Text: http://docutils.sourceforge.net/rst.html</p>
+]]></content>
+  </entry>
+  
+</feed>
